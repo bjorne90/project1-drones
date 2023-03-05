@@ -19,6 +19,10 @@ h1, h2 {
     color: #252525;
 }
 
+hr {
+    border: 0;border-top: 1px solid #3a3a3a; margin 20px 0;
+}
+
 /* Logo and Navbar */
 
 #logo {
@@ -135,3 +139,51 @@ header.scrolled {
     padding-top: 20px;
 }
 /* End Hero section */
+
+/* About Us section */
+
+#about {
+    width: 100%;
+    height: 400px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 15px;
+    line-height: 60px;
+    font-size: 150%;
+    letter-spacing: 1px;
+}
+
+.container-about {
+    width: 50%;
+    height: 70%;
+    background-color: #3a3a3a;
+    color: #fff;
+    border-radius: 15px;
+    float: right;
+    margin-right: 10%;
+    position: relative;
+    font-family: Latos, sans-serif;
+}
+
+.container-about p {
+    position: absolute;
+    margin: 0 4%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 90%;
+    position: relative;
+}
+
+.about-image {
+    aspect-ratio: 1/1;
+    height: 70%;
+    object-fit: cover;
+    margin-left: 12%;
+    border-radius: 50%;
+    float: left;
+    border: 2px solid #3a3a3a;
+}
+/* End About Us section */
