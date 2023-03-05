@@ -20,7 +20,7 @@ h1, h2 {
 }
 
 hr {
-    border: 0;border-top: 1px solid #3a3a3a; margin 20px 0;
+    border:0;border-top:1px solid #3a3a3a;margin:15px 1px;
 }
 
 /* Logo and Navbar */
@@ -187,3 +187,49 @@ header.scrolled {
     border: 2px solid #3a3a3a;
 }
 /* End About Us section */
+
+/* Gallery */
+
+#gallery {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#gallery h2 {
+    margin-bottom: 15px;
+    line-height: 60px;
+    font-size: 150%;
+    letter-spacing: 1px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+}
+
+.masonry-item.zoom {
+    cursor: pointer;
+}
+
+.masonry-item.zoom:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+.masonry-item.zoom:active {
+    transform: scale(2.5);
+    z-index: 3;
+}
+
+.masonry-item.zoom img {
+    transition: transform 0.2s ease-in-out;
+}
+/* End Gallery */
