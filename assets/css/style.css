@@ -13,6 +13,11 @@ body {
     font-weight: 300;
     color: #3a3a3a;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -576,16 +581,22 @@ footer {
 /* End Thank You Page */
 
 /* On screens that are max 768px */
-
+@media only screen and (max-width: 768px) {
+    
+}
 
 /* End On screens that are max 768px */
 
 /* On screens that are max 480px */
-
+@media only screen and (max-width: 480px) {
+    
+}
 
 /* End On screens that are max 480px */
 
 /* On screens that are max 280px */
-
+@media only screen and (max-width: 280px) {
+    
+}
 
 /* End On screens that are max 280px */
