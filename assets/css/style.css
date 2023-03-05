@@ -233,3 +233,189 @@ header.scrolled {
     transition: transform 0.2s ease-in-out;
 }
 /* End Gallery */
+
+/* Latest Flights */
+
+#flights {
+    height: 650px;
+    width: 100%;
+}
+
+#flights h2 {
+    margin-bottom: 15px;
+    line-height: 60px;
+    font-size: 150%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.three-latest-flights {
+    margin: 0 1%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 290px 200px;
+    column-gap: 35px;
+    row-gap: 40px;
+    grid-template-areas:
+    "a1 a2 a3"
+    "b1 b2 b3";
+}
+
+.images-container {
+    margin: 0 auto;
+    position: relative;
+}
+
+.latest-flight-img {
+    aspect-ratio: 1/1;
+    width: 270px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #3a3a3a;
+}
+
+.demo-img {
+    width: 290px;
+}
+
+.flight-info {
+    width: 60%;
+    height: 60%;
+    background-color: #3a3a3a;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 5px;
+    position: relative;
+}
+
+.flight-info-2 {
+    width: 60%;
+    height: 60%;
+    background-color: #3a3a3a;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 5px;
+    position: relative;
+}
+
+.flight-info-3 {
+    width: 60%;
+    height: 60%;
+    background-color: #3a3a3a;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 5px;
+    position: relative;
+}
+
+.flight-info p {
+    position: absolute;
+    margin: 0 5%;
+    top: 15%;
+    transform: translateY(-50%);
+    font-size: 100%;
+    text-align: justify;
+    color: #fff;
+}
+
+.flight-info-2 p {
+    position: absolute;
+    margin: 0 5%;
+    top: 15%;
+    transform: translateY(-50%);
+    font-size: 100%;
+    text-align: justify;
+    color: #fff;
+}
+
+.flight-info-3 p {
+    position: absolute;
+    margin: 0 5%;
+    top: 15%;
+    transform: translateY(-50%);
+    font-size: 100%;
+    text-align: justify;
+    color: #fff;
+}
+
+.flight-info p:nth-child(2) {
+    position: absolute;
+    margin: 0 5%;
+    top: 40%;
+    font-size: 80%;
+}
+
+.flight-info-2 p:nth-child(2) {
+    position: absolute;
+    margin: 0 5%;
+    top: 40%;
+    font-size: 80%;
+}
+
+.flight-info-3 p:nth-child(2) {
+    position: absolute;
+    margin: 0 5%;
+    top: 40%;
+    font-size: 80%;
+}
+
+.flight-info p:nth-child(3) {
+    position: absolute;
+    margin: 0 5%;
+    top: 55%;
+    font-size: 80%;
+}
+
+.flight-info-2 p:nth-child(3) {
+    position: absolute;
+    margin: 0 5%;
+    top: 55%;
+    font-size: 80%;
+}
+
+.flight-info-3 p:nth-child(3) {
+    position: absolute;
+    margin: 0 5%;
+    top: 55%;
+    font-size: 80%;
+}
+
+.flight-info p:nth-child(4) {
+    position: absolute;
+    margin: 0 5%;
+    top: 70%;
+    font-size: 80%;
+}
+
+.flight-info-2 p:nth-child(4) {
+    position: absolute;
+    margin: 0 5%;
+    top: 70%;
+    font-size: 80%;
+}
+
+.flight-info-3 p:nth-child(4) {
+    position: absolute;
+    margin: 0 5%;
+    top: 70%;
+    font-size: 80%;
+}
+
+.flight-number {
+    position: absolute;
+    top: -1%;
+    left: -15%;
+    height: 75px;
+    width: 75px;
+    background-color: #b8d3d0;
+    border: 2px solid #120e11;
+    border-radius: 50%;
+    float: left;
+}
+
+.flight-numbers {
+    padding: 25px 0 0 10px;
+    font-weight: bold;
+    font-size: 50%;
+}
+/* End Latest Flights */
