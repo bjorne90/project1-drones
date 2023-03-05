@@ -13,3 +13,58 @@ body {
     font-weight: 300;
     color: #3a3a3a;
 }
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+/* Logo and Navbar */
+
+#logo {
+    float: left;
+    font-size: 230%;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+#menu {
+    font-size: 90%;
+    letter-spacing: 1px;
+}
+
+#menu, #logo {
+    line-height: 60px;
+}
+
+#menu li {
+    float: right;
+    list-style: none;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* May be deleted */
+header { 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
+    transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+header.scrolled {
+    background-color: #f8f8f8;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+/* end May be deleted */
