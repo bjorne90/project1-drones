@@ -546,6 +546,7 @@ footer {
 
 .footer-text {
     margin: 0;
+    margin-left: 5px;
     padding: 0;
     text-align: left;
     float: left;
