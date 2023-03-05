@@ -28,6 +28,30 @@ hr {
     border:0;border-top:1px solid #3a3a3a;margin:15px 1px;
 }
 
+#im-a1 {
+    grid-area: a1;
+}
+
+#im-b1 {
+    grid-area: b1;
+}
+
+#im-a2 {
+    grid-area: a2;
+}
+
+#im-b2 {
+    grid-area: b2;
+}
+
+#im-a3 {
+    grid-area: a3;
+}
+
+#im-b3 {
+    grid-area: b3;
+}
+
 /* Logo and Navbar */
 
 #logo {
@@ -582,7 +606,239 @@ footer {
 
 /* On screens that are max 768px */
 @media only screen and (max-width: 768px) {
+    /* Logo and navbar */
+    #logo {
+        float: none; /* remove float */
+        margin: 10px auto; /* center align */
+        font-size: 180%; /* reduce font size */
+      }
+      
+      #menu {
+        float: none; /* remove float */
+        margin: 0;
+        text-align: center; /* center align */
+      }
+      
+      #menu li {
+        display: inline-block; /* display menu items as inline-block */
+        float: none; /* remove float */
+        margin: 0 10px; /* add margin */
+      }
+      
+      #menu a:hover {
+        border-bottom: none; /* remove border */
+      }
+
+    /* Hero section */
+    #hero {
+        height: 300px;
+      }
     
+      #welcome-circle {
+        width: 120px;
+        height: 120px;
+        left: 2vmin;
+      }
+    
+      .welcome-circle-text {
+        margin: 5px;
+        padding-top: 30px;
+        font-size: 70%;
+      }
+
+      /* About Us section */
+      #about {
+        height: auto;
+      }
+    
+      .container-about {
+        width: 80%;
+        height: auto;
+        float: none;
+        margin: 0 auto;
+        margin-top: 30px;
+      }
+    
+      .container-about p {
+        position: static;
+        transform: none;
+        margin: 10px 0;
+        font-size: 80%;
+      }
+    
+      .about-image {
+        margin: 0 auto;
+        float: none;
+        margin-top: 30px;
+        width: 200px;
+        height: 200px;
+      }
+      /* Gallery section */
+      .images {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    /* Latest Flight section */
+    .three-latest-flights {
+        margin: 10px 10px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 200px 110px;
+        grid-template-areas:
+        "a1"
+        "b1"
+        "a2"
+        "b2"
+        "a3"
+        "b3";
+        column-gap: 15px;    
+        row-gap: 15px;
+        grid-auto-rows: 200px 110px;
+    }
+
+    .flight-info {
+        margin-left: -5%;
+        width: 100%;
+        height: 90%;
+        width: 95%;
+    }
+    .flight-info-2 {
+        margin-left: -5%;
+        width: 100%;
+        height: 90%;
+        width: 95%;
+    }
+    .flight-info-3 {
+        margin-left: -5%;
+        width: 100%;
+        height: 90%;
+        width: 95%;
+    }
+
+    .flight-number {
+        padding-right: 0;
+        margin: 0 auto;
+    }
+
+    #flights {
+        height: 1255px;
+    }
+
+    #flights h2 {
+        margin-top: 0px;
+        line-height: 50px;
+        font-size: 150%;
+    }
+
+    #im-a1,
+    #im-a2,
+    #im-a3
+     {
+        padding-right: 3.5%;
+        padding-top: 0;
+    }
+
+    .latest-flight-img {
+        width: 190px;
+    }
+
+    .demo-img {
+        width: 190px;
+    }
+
+    .flight-info {
+        margin-left: 0;
+        margin: 0 auto;
+        height: 90%;
+        width: 95%;
+    }
+
+    .flight-info-2 {
+        margin-left: 0;
+        margin: 0 auto;
+        height: 90%;
+        width: 95%;
+    }
+
+    .flight-info-3 {
+        margin-left: 0;
+        margin: 0 auto;
+        height: 90%;
+        width: 95%;
+    }
+
+    .flight-info p {
+        font-size: min(100%, 3.35vmin);
+    }
+
+    .flight-info-2 p {
+        font-size: min(100%, 3.35vmin);
+    }
+
+    .flight-info p:nth-child(2) {
+        position: absolute;
+        margin: 0 5%;
+        top: 40%;
+        font-size: 80%;
+    }
+
+    .flight-info-2 p:nth-child(2) {
+        position: absolute;
+        margin: 0 5%;
+        top: 40%;
+        font-size: 80%;
+    }
+    
+    .flight-info p:nth-child(3) {
+        position: absolute;
+        margin: 0 5%;
+        top: 55%;
+        font-size: 80%;
+    }
+    
+    .flight-info p:nth-child(4) {
+        position: absolute;
+        margin: 0 5%;
+        top: 70%;
+        font-size: 80%;
+    }
+
+    .images-container {
+        padding-right: 0;
+        margin: 0 auto;
+    }  
+
+    /* SignUp section */
+    .registration-form {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+        max-width: 600px;
+        margin: auto;
+        padding: 2rem;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+    }
+
+    /* Footer section */
+    footer {
+        padding: 10px 0; /* reduce padding */
+      }
+      
+      .social-icons {
+        text-align: center; /* center align social icons */
+        float: none; /* remove float */
+        margin-top: 10px; /* add margin */
+      }
+      
+      .social-icons li {
+        display: block; /* display social icons as block */
+        margin: 10px auto; /* center align social icons */
+      }
+      
+      .footer-text {
+        text-align: center; /* center align footer text */
+        float: none; /* remove float */
+        margin-top: 10px; /* add margin */
+      }
 }
 
 /* End On screens that are max 768px */
@@ -596,7 +852,14 @@ footer {
 
 /* On screens that are max 280px */
 @media only screen and (max-width: 280px) {
-    
+    #logo {
+        margin-top: 5px; /* reduce margin */
+        font-size: 150%; /* reduce font size further */
+      }
+      
+      #menu li {
+        margin: 0 5px; /* reduce margin */
+      }
 }
 
 /* End On screens that are max 280px */
