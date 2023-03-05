@@ -830,7 +830,7 @@ footer {
       }
       
       .social-icons li {
-        display: block; /* display social icons as block */
+        display: inline-block; /* display social icons as block */
         margin: 10px auto; /* center align social icons */
       }
       
@@ -857,9 +857,151 @@ footer {
         font-size: 150%; /* reduce font size further */
       }
       
-      #menu li {
+    #menu li {
         margin: 0 5px; /* reduce margin */
       }
+
+      /* Hero section */
+
+      #hero {
+        height: 250px; /* reduce height */
+      }
+      
+      #hero-bg {
+        background-size: contain; /* change background-size to contain */
+        animation-duration: 5s; /* increase animation duration */
+      }
+      
+      #welcome-circle {
+        width: 80px; /* reduce width */
+        height: 80px; /* reduce height */
+        bottom: 5px; /* adjust bottom position */
+        left: 5px; /* adjust left position */
+        font-size: 0.8rem; /* reduce font size */
+      }
+      
+      .welcome-circle-text {
+        margin: 5px; /* reduce margin */
+        padding-top: 10px; /* reduce padding */
+        font-size: 0.5rem; /* reduce font size */
+      }  
+
+      /* About Us */
+      #about {
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+        text-align: center;
+    }
+    
+    #about h2 {
+        margin-bottom: 15px;
+        line-height: 30px;
+        font-size: 110%;
+        letter-spacing: 1px;
+    }
+    
+    .container-about {
+        width: 80%;
+        height: auto;
+        background-color: #3a3a3a;
+        color: #fff;
+        border-radius: 15px;
+        margin: 0 auto;
+        position: relative;
+        font-family: Latos, sans-serif;
+        margin-top: 2%;
+    }
+    
+    .container-about p {
+        margin: 5%;
+        font-size: 90%;
+        position: relative;
+    }
+    
+    .about-image {
+        aspect-ratio: 1/1;
+        height: 60%;
+        object-fit: cover;
+        margin: 0 auto;
+        border-radius: 50%;
+        border: 2px solid #3a3a3a;
+        margin-top: 5%;
+    }
+    /* Latest Flight section */
+    .three-latest-flights {
+        margin: 10px 10px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 200px 110px;
+        grid-template-areas:
+            "a1"
+            "b1"
+            "a2"
+            "b2"
+            "a3"
+            "b3";
+        column-gap: 10px;    
+        row-gap: 10px;
+        grid-auto-rows: 200px 110px;
+    }
+
+    .flight-info {
+        margin-left: -5%;
+        width: 100%;
+        height: 90%;
+        width: 95%;
+    }
+
+    .flight-number {
+        padding-right: 0;
+        margin: 0 auto;
+    }
+
+    #flights {
+        height: 1400px;
+    }
+
+    #flights h2 {
+        margin-top: 0px;
+        line-height: 50px;
+        font-size: 150%;
+    }
+
+    #im-a1,
+    #im-a2,
+    #im-a3,
+    #fs-a1,
+    #fs-a2,
+    #fs-a3 {
+        padding-right: 3.5%;
+        padding-top: 0;
+    }
+
+    .flight-info p {
+        font-size: min(100%, 3.35vmin);
+    }
+
+    .flight-info p:nth-child(2) {
+        position: absolute;
+        margin: 0 5%;
+        top: 40%;
+        font-size: 80%;
+    }
+    
+    .flight-info p:nth-child(3) {
+        position: absolute;
+        margin: 0 5%;
+        top: 55%;
+        font-size: 80%;
+    }
+    
+    .flight-info p:nth-child(4) {
+        position: absolute;
+        margin: 0 5%;
+        top: 70%;
+        font-size: 80%;
+    }
+
 }
 
 /* End On screens that are max 280px */
