@@ -72,5 +72,66 @@ header.scrolled {
 
 /* Hero section */
 
+#hero {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
+#hero-bg {
+    height: 100%;
+    width: 100%;
+    background: url('../images/image1.jpeg') no-repeat center center;
+    background-size: cover;
+    animation-name: background-img;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes background-img {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.4);
+    }
+}
+
+#welcome-circle {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #f8f8f8;
+    bottom: 2vmin;
+    left: 6vmin;
+    position: absolute;
+    border: 2px solid #3a3a3a;
+    opacity: 0;
+    animation: 1s ease-out 2s forwards welcome-circle-appear;
+}
+
+@keyframes welcome-circle-appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.9;
+    }
+}
+
+#welcome-circle:hover {
+    font-weight: 500;
+    width: 162px;
+    height: 162;
+    border: 3px solid grey;
+    cursor: pointer;
+}
+
+.welcome-circle-text {
+    margin: 10px;
+    padding-top: 20px;
+}
 /* End Hero section */
