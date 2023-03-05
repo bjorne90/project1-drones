@@ -477,5 +477,6 @@ input[type="tel"] {
 .password-info {
     font-size: 0.8rem;
     margin-top: 1rem;
+    font-style: italic;
 }
 /* End SignUp */
