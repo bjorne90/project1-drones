@@ -480,3 +480,45 @@ input[type="tel"] {
     font-style: italic;
 }
 /* End SignUp */
+
+/* Footer */
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px 0; 
+    font-size: 14px;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.social-icons {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+    float: right;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons li a {
+    color: #555; 
+}
+
+.social-icons li a:hover {
+    color: #000;
+}
+
+.footer-text {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    float: left;
+}
+/* End Footer */
