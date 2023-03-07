@@ -52,12 +52,12 @@
     <!-- End Hero Section -->
 
     <!-- Thank You section -->
-    <section id="thank-you">
-        <div class="center-box">
-            <h2>Thanks You for signing up!</h2>
-            <p>Take a look in your inbox for an email about your login details.</p>
-            <button class="btn"><a href="index.html">Back to home</a></button>
-        </div>
+    <section class="center-box">
+        <form method="get" action="index.html" id="thank-you-form">
+            <h2>Thank you <span id="output"></span> for signing up to us!</h2>
+            <p>Please click the button below to return to the home page.</p>
+            <input class="btn" type="submit" value="Go Home">
+        </form>
     </section>
     <!-- End Thank You section -->
 
@@ -79,5 +79,13 @@
         </div>
     </footer>
     <!-- End Footer section -->
+    <script>
+        window.onload = function () {
+            let myURL = window.location;
+            var searchParams = new URLSearchParams(myURL.search)
+            let first_name = (searchParams.get('first-name'))
+            document.getElementById('output').innerHTML = first_name
+        }
+    </script>
 </body>
 </html>

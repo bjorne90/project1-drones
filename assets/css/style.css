@@ -580,13 +580,13 @@ footer {
 }
 
 .btn {
-    background-color: #fff;
+    background-color: #3a3a3a;
     border: none;
     color: white;
     padding: 12px 24px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     font-size: 1.2rem;
     font-weight: bold;
     cursor: pointer;
@@ -603,6 +603,25 @@ footer {
 .btn a {
     text-decoration: none;
 }
+
+#thank-you-form h2 {
+    font-size: 250%;
+    grid-area: header;
+    margin: auto;
+    text-align: center;
+}
+
+#thank-you-form p {
+    text-align: center;
+    font-size: 120%;
+    grid-area: paragraph;
+}
+
+#thank-you-form input {
+    grid-area: button;
+    margin: auto;
+}
+
 /* End Thank You Page */
 
 /* On screens that are max 768px */
