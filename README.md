@@ -129,6 +129,7 @@ The live link can be found here - https://bjorne90.github.io/project1-drones/ind
 
 - I was helped by Google translate for the translation of some words.
 - The icons were taken from [Font Awesome](https://fontawesome.com/)
+- The JavaScript on thanks.html was created with help from [Mozilla Devs](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams/get)
 
 ### Media
 
