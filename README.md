@@ -1,3 +1,19 @@
+<div align="center">
+  <a href="https://github.com/bjorne90/project1-drones">
+    <img src="media/logo.png" alt="Logo" width="250" height="100">
+  </a>
+
+  <h3 align="center">Project 1 - Drone Flyers</h3>
+
+  <p align="center">
+    My first HTML/CSS project for CI. A website for drone enthusiasts that wants to share flights, pictures and stay in touch!
+    <br />
+    <br />
+    <a href="https://bjorne90.github.io/project1-drones/index.html">View Website</a>
+  </p>
+</div>
+
+
 # Project 1 - Drone Flyers
 
 This is a website that is basically built on HTML and CSS. The site's purpose is to gather drone enthusiasts to share photos with each other, their flights and have contact with each other.
