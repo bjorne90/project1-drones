@@ -4,7 +4,7 @@ This is a website that is basically built on HTML and CSS. The site's purpose is
 
 The users' photos can be seen by anyone who visits the page, as well as visitors can see the users' flights.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](media/Ska%CC%88rmavbild%202023-03-07%20kl.%2015.58.31.png)
 
 ## Features 
 
